@@ -1,6 +1,35 @@
 /* Your code here */
 .masthead{
       display: grid ;
-      grid-template-rows: repeat(3, 33%);
-      grid-template-columns: repeat(3, 33%);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: 
+      "masthead__menu-and-search . masthead__actions"
+      " . masthead__technologies . "
+      "masthead__date masthead__logo masthead__paper";
 }
+
+.masthead__menu-and-search {
+      grid-area: masthead__menu-and-search;
+}
+
+.masthead__actions {
+      grid-area: masthead__actions;
+}
+
+.masthead__technologies {
+      grid-area: masthead__technologies;
+}
+
+.masthead__logo {
+      grid-area: masthead__logo;
+}
+
+.masthead__date {
+      grid-area: masthead__date;
+}
+
+.masthead__paper {
+      grid-area: masthead__paper;
+}
+
