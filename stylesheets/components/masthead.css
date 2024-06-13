@@ -1,2 +1,6 @@
 /* Your code here */
-aabba
+.masthead{
+      display: grid ;
+      grid-template-rows: repeat(3, 33%);
+      grid-template-columns: repeat(3, 33%);
+}
