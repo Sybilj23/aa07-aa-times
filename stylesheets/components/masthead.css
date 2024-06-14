@@ -33,10 +33,6 @@
       grid-area: masthead__paper;
 }
 
-/* Font size	11 pixels
-Horizontal padding	9 pixels left and right
-Vertical padding	7 pixels top and bottom
-Hover background color	lightest gray (refer to styles.md for this value) */
 .masthead_button {
       font-size: 11px;
       padding: 7px 9px 9px 7px;
@@ -49,5 +45,11 @@ Hover background color	lightest gray (refer to styles.md for this value) */
       display:flex;
       align-items: center;
       padding: 0 0 0 20px;
+}
+
+.masthead__actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
 }
 
